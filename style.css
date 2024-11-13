@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('img/fondo.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  color: #191970; 
+}
+
+.head {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(34, 197, 94, 0.6); 
+}
+
+.head .logo {
+  max-width: 80px;
+  height: auto;
+  background-color: #Ffff00; 
+  border-radius: 50%; 
+  padding: 10px; 
+}
+
+.navbar {
+  background-color: rgba(34, 197, 94, 0.6); 
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #191970; 
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #F59E0B; 
+}
+
+
+header {
+  background-color: rgba(34, 197, 94, 0.6); 
+  text-align: center;
+  padding: 50px 20px;
+  margin: 20px;
+  border-radius: 8px; 
+}
+
+header h2 {
+  color: #191970; 
+}
+
+header p {
+  color: #191970; 
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #Ffff00; 
+  color: #108d10;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #191970; 
+}
+
+.content {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(34, 197, 94, 0.6); 
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.content h2 {
+  color: #191970; 
+}
+
+.content p {
+  color: #191970; 
+}
+
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.box {
+  background-color: #108d10;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+
+.box i {
+  font-size: 50px; 
+  color: #191970;
+  margin-bottom: 10px; 
+  background-color: #Ffff00; 
+  padding: 20px; 
+  border-radius: 50%; 
+}
+
+.box h3 {
+  color: #191970; 
+}
+
+.box p {
+  color: #191970; 
+}
+
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(34, 197, 94, 0.6); 
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.contact p {
+  color: #191970; 
+}
+
+.contact figure img {
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar ul li {
+      margin: 10px 0;
+  }
+
+  .box-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .box {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+}
