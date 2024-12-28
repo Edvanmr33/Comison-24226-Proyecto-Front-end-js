@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "Carrito",
+      "image": "img/CARRITO.jfif",
+      "price": 150000.00
+    },
+    {
+      "id": 2,
+      "title": "Aceite de Bebé",
+      "image": "img/ACEITE DE BEBE.jfif",
+      "price": 6000.00
+    },
+    {
+      "id": 3,
+      "title": "Jabón",
+      "image": "img/JABÓN.jfif",
+      "price": 1000.00
+    },
+    {
+      "id": 4,
+      "title": "Kit de Baño",
+      "image": "img/KIT DE BAÑO.jfif",
+      "price": 30000.00
+    },
+    {
+      "id": 5,
+      "title": "Babero",
+      "image": "img/BABERO.jfif",
+      "price": 7000.00
+    },
+    {
+      "id": 6,
+      "title": "Cuna",
+      "image": "img/CUNA.jfif",
+      "price": 150000.00
+    },
+    {
+      "id": 7,
+      "title": "Conjunto Deportivo Argentina",
+      "image": "img/ROPITA ARGENTINA.jfif",
+      "price": 30000.00
+    },
+    {
+      "id": 8,
+      "title": "Conjunto Deportivo Brasil",
+      "image": "img/ROPITA BRASIL.jfif",
+      "price": 30000.00
+    },
+    {
+      "id": 9,
+      "title": "Conjunto Deportivo Flamengo",
+      "image": "img/ROPITA FLAMENGO.jfif",
+      "price": 30000.00
+    }
+  ]
+  

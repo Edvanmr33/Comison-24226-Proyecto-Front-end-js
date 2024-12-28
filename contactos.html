@@ -21,36 +21,57 @@
                 <li><a href="contactos.html">Contacto</a></li>
               </ul>
         </nav>
+        <div>
+          <ul>
+           <li class="submenu">
+             <img src="img/car.jpg" id="img-carrito" alt="">
+             <div id="carrito">
+               <table id="lista-carrito">
+                 <thead>
+                   <tr>
+                     <th>Imagen</th>
+                     <th>Nombre</th>
+                     <th>Precio</th>
+                     <th></th>
+                   </tr>
+                 </thead>
+                 <tbody></tbody>
+               </table>
+               <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+             </div>
+           </li>
+          </ul>
+           </div>
+        
     </header>
 
     <form autocomplete="off" action="#" method="POST">
         <div class="input-group">
-
             <div class="input-container">
                 <input type="text" placeholder="Nombre" required>
                 <i class="fa-solid fa-user"></i>
             </div>
-
+    
             <div class="input-container">
-                <input type="tel" placeholder="Teléfono" required pattern="[0-9]{10}">
+                <input type="tel" placeholder="Teléfono (00 0000-0000)" required pattern="^\d{2}\s\d{4}-\d{4}$">
                 <i class="fa-solid fa-phone"></i>
             </div>
-
+             
             <div class="input-container">
                 <input type="email" placeholder="Correo" required>
                 <i class="fa-solid fa-envelope"></i>
             </div>
-
+    
             <div class="input-container">
-                <input type="text" placeholder="texto" required>
+                <input type="text" placeholder="Texto" required>
                 <i class="fa fa-file-text" aria-hidden="true"></i>
             </div>
-
+    
             <a href="#">Términos y Condiciones</a>
             <input type="submit" class="btn" value="Enviar">
-
         </div>
     </form>
-
+    
+    <script src="script.js"></script>
 </body>
 </html>
