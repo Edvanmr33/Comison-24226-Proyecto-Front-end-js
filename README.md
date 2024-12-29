@@ -17,5 +17,4 @@ adcion de script.js y productos.json
 1. Clona el repositorio.
 2. Abre el archivo `index.html` en tu navegador.
 
-## Licencia
-Este proyecto está licenciado bajo la Licencia MIT.
+nuevos cambios en los codigos de JS, productos.json, productos.html y productos.css

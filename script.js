@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const apiURL = "productos.json"; // Corrigiendo la URL del archivo JSON
+  const apiURL = "productos.json";
   const productContainer = document.querySelector(".Products");
   const cartTableBody = document.querySelector("#lista-carrito tbody");
   const emptyCartBtn = document.querySelector("#vaciar-carrito");
